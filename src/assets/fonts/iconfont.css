@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3881046 */
-  src: url('iconfont.woff2?t=1676284124917') format('woff2'),
-       url('iconfont.woff?t=1676284124917') format('woff'),
-       url('iconfont.ttf?t=1676284124917') format('truetype');
+  src: url('iconfont.woff2?t=1676324326702') format('woff2'),
+       url('iconfont.woff?t=1676324326702') format('woff'),
+       url('iconfont.ttf?t=1676324326702') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,22 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Vector:before {
+  content: "\e601";
+}
+
+.icon-password:before {
+  content: "\e602";
+}
+
+.icon-Call:before {
+  content: "\e603";
+}
+
+.icon-Message:before {
+  content: "\e604";
 }
 
 .icon-dianzan:before {

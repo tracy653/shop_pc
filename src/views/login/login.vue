@@ -25,8 +25,8 @@
             <ul class="type-tab">
               <li :class="{'active':typeIndex === index}" v-for="(item,index) in typeTab"
                   :key="index" @click="changeTab(index)">
-                <i class="iconfont icon-star"></i>
-                {{item}}
+                <i class="iconfont" :class="item.icon"></i>
+                {{item.text}}
               </li>
             </ul>
             <div class="form">
@@ -38,7 +38,7 @@
                     <el-select v-model="form.flagValue" prefix-icon="Lock"
                               @change="changeSelect"
                                popper-class="login-select">
-                      <template #prefix><i class="iconfont icon-star"></i></template>
+                      <template #prefix><i class="iconfont icon-Call"></i></template>
                       <el-option-group label="选择国家或地区" >
                         <el-option label="+22" value="2" >
                           <img src="./img/china.png" alt="">
@@ -60,13 +60,13 @@
               <div class="item email"  v-if="typeIndex===1">
                 <el-input v-model="form.email" type="text"
                           placeholder="输入邮箱" clearable>
-                  <template #prefix><i class="iconfont icon-star"></i></template>
+                  <template #prefix><i class="iconfont icon-Message"></i></template>
                 </el-input>
               </div>
               <div class="item">
                 <el-input v-model="form.passWord" type="password"
                           placeholder="输入密码" show-password clearable >
-                  <template #prefix><i class="iconfont icon-star"></i></template>
+                  <template #prefix><i class="iconfont icon-password"></i></template>
                 </el-input>
               </div>
               <p class="forget">忘记密码?</p>
@@ -97,7 +97,10 @@
 
         },
 
-        typeTab:['Phone','Email'],
+        typeTab:[
+          {text:'phone',icon:'icon-Call'},
+          {text:'Email',icon:'icon-Message'},
+        ],
         typeIndex:0,
 
       }

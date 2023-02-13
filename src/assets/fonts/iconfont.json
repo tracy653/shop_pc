@@ -6,6 +6,34 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "34093049",
+      "name": "Vector",
+      "font_class": "Vector",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "34093050",
+      "name": "password",
+      "font_class": "password",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "34093051",
+      "name": "Call",
+      "font_class": "Call",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "34093052",
+      "name": "Message",
+      "font_class": "Message",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
       "icon_id": "11372758",
       "name": "点赞",
       "font_class": "dianzan",
