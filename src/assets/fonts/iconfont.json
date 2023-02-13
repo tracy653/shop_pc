@@ -1,0 +1,93 @@
+{
+  "id": "3881046",
+  "name": "shop-pc-2023-02-05",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11372758",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e8c3",
+      "unicode_decimal": 59587
+    },
+    {
+      "icon_id": "108768",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "587146",
+      "name": "triangle-24",
+      "font_class": "triangle24",
+      "unicode": "e820",
+      "unicode_decimal": 59424
+    },
+    {
+      "icon_id": "12364784",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "34030547",
+      "name": "下箭头-copy",
+      "font_class": "xiajiantou-copy",
+      "unicode": "ea21",
+      "unicode_decimal": 59937
+    },
+    {
+      "icon_id": "34030549",
+      "name": "下箭头-copy-copy",
+      "font_class": "xiajiantou-copy-copy",
+      "unicode": "ea22",
+      "unicode_decimal": 59938
+    },
+    {
+      "icon_id": "34030550",
+      "name": "下箭头-copy-copy",
+      "font_class": "xiajiantou-copy-copy1",
+      "unicode": "ea23",
+      "unicode_decimal": 59939
+    },
+    {
+      "icon_id": "111904",
+      "name": "五角星",
+      "font_class": "star",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "1304890",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "3874024",
+      "name": "过滤器",
+      "font_class": "guolvqi",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "12515458",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "18171172",
+      "name": "过滤器,漏斗,筛选",
+      "font_class": "filter",
+      "unicode": "ea20",
+      "unicode_decimal": 59936
+    }
+  ]
+}
