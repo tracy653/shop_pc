@@ -62,6 +62,10 @@ const routes = [
                         component: () => import ( /* webpackChunkName: "index" */ "../views/registerShop/registerShop.vue"),
                     },
                     {
+                        path: '/payment',
+                        component: () => import ( /* webpackChunkName: "index" */ "../views/payment/payment.vue"),
+                    },
+                    {
                         path: "/panelInfo",
                         name: "panelInfo",
                         redirect: "/panelInfo/userInfo",
